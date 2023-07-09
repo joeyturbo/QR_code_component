@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    line-height: 1.2em;
+}
+
+
+body {
+    background-color: rgb(206, 216, 228);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-align-items: center;
+}
+
+
+.card {
+    height: 425px;
+    background-color: white;
+    width: 270px;
+    border-radius: 13px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+
+
+}
+
+.qr-container {
+    padding: 8px;
+    max-height: 100%;
+}
+
+.qr {
+    border-radius: 13px;
+    max-width: 100%;
+}
+
+h3 {
+    padding: 10px;
+    
+}
+
+p {
+    padding-bottom: 20px;
+    color: rgb(134, 134, 134);
+}
+
+
